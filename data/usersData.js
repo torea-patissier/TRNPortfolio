@@ -44,12 +44,6 @@ export const DATA = [
                 photoDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quae eum nostrum pariatur exercitationem earum natus, dolor placeat! Animi quaerat ducimus fuga sequi a culpa sit illo iste alias aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quae eum nostrum pariatur exercitationem earum natus, dolor placeat! Animi quaerat ducimus fuga sequi a culpa sit illo iste alias aperiam',
             },
             {
-                id: 2, 
-                url: "https://cdn.pixabay.com/photo/2015/12/08/00/28/car-1081742_960_720.jpg",
-                title: "Ford",
-                photoDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quae eum nostrum pariatur exercitationem earum natus, dolor placeat! Animi quaerat ducimus fuga sequi a culpa sit illo iste alias aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quae eum nostrum pariatur exercitationem earum natus, dolor placeat! Animi quaerat ducimus fuga sequi a culpa sit illo iste alias aperiam',
-            },
-            {
                 id: 3, 
                 url: "https://cdn.pixabay.com/photo/2016/05/03/23/46/mercedes-benz-1370536_960_720.jpg",
                 title: "Mercedes",

@@ -6,16 +6,20 @@ const Photo = ({ navigation }) => {
         const url = navigation.getParam('url');
         const title = navigation.getParam('title');
         const photoDesc = navigation.getParam('photoDesc');
+        /**
+         * Props récupérés  de navigation via selectPhoto dans Portfolio
+         */
 
-    return (
+    return ( //Vue 
         <ScrollView style={globalStyles.container}>
             <Text>Photo.js</Text>
             <Image 
                 style={styles.selectedImage}
-                source={{uri: url}}
+                source={{uri: url}} // J'appelle l'url de l'image stocké dans usersData
             />
             <View style={styles.photoDescription}>
                 <Text style={globalStyles.titleText}>{title}</Text>
+                {/* J'affiche le titre de l'image */}
 
                 <Text style={styles.textDescription}>{photoDesc}</Text>
                 <Text style={styles.textDescription}>{photoDesc}</Text>
@@ -27,7 +31,7 @@ const Photo = ({ navigation }) => {
 Photo.navigationOptions = ({navigation}) => {
     const photoTitle = navigation.getParam('title');
     return {
-        headerTitle: photoTitle.toUpperCase()
+        headerTitle: photoTitle.toUpperCase() // Permet d'afficher le titre de l'image dans le header
     }
 }
 

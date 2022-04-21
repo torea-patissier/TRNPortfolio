@@ -80,7 +80,7 @@ const Portfolio = ({ navigation }) => {
            <View>
                 {
                     photoArray.map( photo => ( // photoarray récupère le tableau de photos dans usersData.js
-                        <TouchableImage // Component créé et importé
+                        <TouchableImage // Component créé et importé (Custom component)
                             key={photo.id} // A renseigner quand on .map
                             imgUrl={photo.url} // Je créer le props imgUrl qui prend pour valeur l'url de la const photo
                             imgTitle={photo.title} // Props pour le titre de l'image en BckGrnd Black 
